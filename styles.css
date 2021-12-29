@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Futura;
+    src: url(FuturaPTMediumOblique.otf);
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Futura;
+}
+
+.background {
+    object-fit: cover;
+    position: fixed;
+    filter: blur(2px) brightness(50%);
+    height: 100%;
+    width: 100%;
+}
+
+.splash-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.profile-image {
+    width: 8em; 
+    height: 8em;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.splash-header {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    font-size: xx-large;
+}
+
+.splash-text {
+    margin-top: 0;
+}
