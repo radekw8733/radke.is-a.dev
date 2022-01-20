@@ -38,7 +38,10 @@ nav {
 
 .link {
     color: white;
-    margin: 0 20px;
+}
+
+.badge {
+    border-radius: 5px;
 }
 
 .content {
